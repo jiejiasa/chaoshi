@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="chaoshi:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/chaoshi_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="chaoshi" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="lib" />
+        </element>
+      </element>
+      <element id="library" level="module" name="mysql-connector-java-5.1.6-bin.jar" module-name="chaoshi" />
+      <element id="library" level="application" name="Java EE 6-Java EE 6" />
+      <element id="javaee-facet-resources" facet="chaoshi/web/Web" />
+    </root>
+  </artifact>
+</component>
